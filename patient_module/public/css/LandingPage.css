@@ -1,0 +1,176 @@
+
+  .lp-container {
+    text-align: center;
+    /* padding-top: 0.5rem; */
+    padding: 1rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 98vh;
+    background: #5E7DA7;
+  }
+  
+  .lp-header {
+    /* margin-top: 1rem; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lp-logo {
+    background-color: #E8EAE5;
+    padding: 1rem 1.5rem;
+    width: 15%;
+    border-radius: 5px;
+  }
+
+  /* .navbar{
+    background-color: hsl(0, 0%, 91%, 30%);
+    padding: 0.75rem 1.5rem;
+    width: 70%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10%;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #E8EAE5;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    position: relative;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar a:hover {
+    color: #333;
+  }
+  
+  .navbar a::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2.5px;
+    border-radius: 50px;
+    background-color: #E8EAE5;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar a:hover::after {
+    width: 100%;
+  } */
+  
+  .lp-login-container {
+    width: 30%;
+    align-items: center;
+    min-height: 100%;
+  }
+
+  .lp-login-items {
+    padding: 0.7rem 1.8rem 0.5rem 1.8rem;
+    background: #f2f5ed;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: space-between; */
+    gap: 0.8rem;
+    /* min-height: 90%; */
+  }
+
+  .lp-login-input {
+    font-size: 1.1rem;
+    margin: 0 1rem 0 0.5rem;
+    padding: 0.2rem;
+    background: none;
+    border-style: none;
+  }
+
+  .lp-login-button {
+    padding: 0.8rem 1rem;
+    background-color: #183873;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: scroll;
+    transition: transform 0.2s;
+  }
+  
+  .lp-login-button:hover {
+    transform: scale(1.07);
+  }
+  
+  h1 {
+    font-size: 2.8rem;
+    color: #E8EAE5;
+    text-align: left;
+    margin: 0.5rem 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #E8EAE5;
+    margin: 0.5rem 0 1rem 0;
+    text-align: left;
+  }
+  
+  .lp-image-container {
+    position: relative;
+    /* margin: 2.5rem auto; */
+    /* border: 3px solid #333; */
+    border-radius: 5px;
+    max-height: 55vh;
+    width: 100%;
+    overflow: hidden;
+    /* width: 80%; */
+    /* max-width: 1000px; */
+  }
+  
+  .lp-hospital-image {
+    width: 100%;
+    /* border-radius: 10px; */
+  }
+  
+  .lp-cards {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .lp-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1.3rem 4rem;
+    /* margin: 0 1.5rem; */
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .lp-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .lp-footer {
+    margin-bottom: 0.1rem;
+    font-size: 0.9rem;
+    color: #E8EAE5;
+  }
+  

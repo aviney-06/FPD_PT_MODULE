@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #5E7DA7; */
+    font-family: Arial, sans-serif;
+}
+
+.side-panel-container{
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: #E8EAE5;
+    margin: 0 0.5rem;
+    height: 9%;
+    /* width: 80%; */
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.logo img {
+    width: 75%;
+}
+
+.menu-options{
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    height: 70%;
+}
+
+.sb-options {
+    display: inherit;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.menu-options-styling {
+    background-color: #E8EAE5;
+    padding: 0.9rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button, select {
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.login-button {
+    background-color: #E8EAE5;
+    /* height: 20%; */
+    /* padding: 1rem; */
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem 3.5rem;
+}
+
+footer {
+    height: 10%;
+    font-size: 0.9rem;
+    color: #E8EAE5;
+}
